@@ -4,13 +4,15 @@
   "description": "Capture inputs to store CSV base data",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
     "start": "nodemon"
   },
   "dependencies": {
-    "@inquirer/prompts": "^8.0.1",
+    "@inquirer/prompts": "^8.0.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.11"
   }
 }
