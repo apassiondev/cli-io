@@ -1,0 +1,40 @@
+Core Java, Volume II: Advanced Features 14th Edition
+https://coderprog.com/core-java-volume-2-14th/
+
+Getting Started with Python, New Edition
+https://coderprog.com/getting-started-python-new/
+
+Core Java, Volume I: Fundamentals, 14th Edition
+https://coderprog.com/core-java-volume-1-14th/
+
+Game Development with Godot 4: A complete Introduction
+https://coderprog.com/game-development-godot-4-complete-introduction/
+
+Learn Model Context Protocol with Python: Build agentic systems in Python with
+the new standard for AI capabilities
+https://coderprog.com/learn-model-context-protocol-python-agentic/
+
+Knowledge Graphs and LLMs in Action
+https://coderprog.com/knowledge-graphs-llms-action/
+
+Book of Making 2026: Projects for Makers and Hackers
+https://coderprog.com/book-making-2026-projects-makers-hackers/
+
+React Native Course
+https://coderprog.com/react-native-beto-moedano-course/
+
+Python, SQL, Tableau for Data Science Professional Certificate
+https://coderprog.com/python-sql-tableau-professional-certificate/
+
+Learn C++ by Example: Covers versions 11 to 23
+https://coderprog.com/learn-cpp-example-versions-11-23/
+
+PHP and MySQL: The Comprehensive Guide to Server-Side Web Development with PHP 8
+Build Dynamic Websites with Database Integration, Security and More
+https://coderprog.com/php-mysql-comprehensive-christian-wenz/
+
+Blockchain: The Comprehensive Guide to Blockchain Development, Ethereum, Solidity, and Smart Contracts
+https://coderprog.com/blockchain-comprehensive-development-contracts/
+
+Kubernetes: Practical Guide for Developers and DevOps Teams - From Container Basics to Advanced Helm Deployments
+https://coderprog.com/kubernetes-practical-developers-deployments/
