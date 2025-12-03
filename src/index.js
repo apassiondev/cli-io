@@ -1,7 +1,16 @@
-import { input, confirm } from "@inquirer/prompts";
-import { appendFileSync } from "fs";
+import { confirm, input } from "@inquirer/prompts";
+import { createObjectCsvWriter } from "csv-writer";
 
 const filePath = "./data/resources.csv";
+
+const csvWriter = createObjectCsvWriter({
+  path: filePath,
+  append: true,
+  header: [
+    { id: "title", title: "TITLE" },
+    { id: "url", title: "URL" },
+  ],
+});
 
 class ResourceEntry {
   constructor(title = "", url = "") {
@@ -9,13 +18,12 @@ class ResourceEntry {
     this.url = url;
   }
 
-  save() {
-    const content = `${this.title},${this.url}\n`;
+  async save() {
     try {
-      appendFileSync(filePath, content);
-      console.info(`Data "${this.title}" saved!`);
+      const { title, url } = this;
+      await csvWriter.writeRecords([{ title, url }]);
     } catch (error) {
-      console.error(error);
+      throw new Error(error);
     }
   }
 }
@@ -30,8 +38,10 @@ const app = async () => {
 
       const resource = new ResourceEntry(title, url);
       resource.save();
+
+      console.log(`"${title}" saved!`);
     } catch (error) {
-      console.error(error);
+      console.error("Error saving content:", error);
     }
 
     shouldContinue = await confirm({ message: "Continue?" });
